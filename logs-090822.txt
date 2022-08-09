@@ -1,0 +1,94 @@
+    1  2022-08-09 08:25:19 gcloud auth list
+    2  2022-08-09 08:25:19 git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+    3  2022-08-09 08:25:19 cd python-docs-samples/codelabs/flex_and_vision
+    4  2022-08-09 08:25:19 gcloud auth list
+    5  2022-08-09 08:25:19 gcloud config list project
+    6  2022-08-09 08:25:19 git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+    7  2022-08-09 08:25:19 cd python-docs-samples/codelabs/flex_and_vision
+    8  2022-08-09 08:25:19 export PROJECT_ID=[sit-22t1-team-justice--b78eea6]
+    9  2022-08-09 08:25:19 gcloud iam service-accounts create qwiklab   --display-name "My Qwiklab Service Account"
+   10  2022-08-09 08:25:19 gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com --role roles/owner
+   11  2022-08-09 08:25:19 gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com --role roles/owner
+   12  2022-08-09 08:25:19 export PROJECT_ID=[sit-22t1-team-justice--b78eea6]
+   13  2022-08-09 08:25:19 gcloud auth list
+   14  2022-08-09 08:25:19 gcloud config list project
+   15  2022-08-09 08:25:19 ls
+   16  2022-08-09 08:25:19 cd python-docs-samples/
+   17  2022-08-09 08:25:19 export PROJECT_ID=sit-22t1-team-justice--b78eea6
+   18  2022-08-09 08:25:19 ls
+   19  2022-08-09 08:25:19 gcloud iam service-accounts create qwiklab --display-name "My Qwiklab Service Account"
+   20  2022-08-09 08:25:19 gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com --role roles/owner
+   21  2022-08-09 08:25:19 export PROJECT_ID=sit-22t1-team-justice--b78eea6
+   22  2022-08-09 08:25:19 gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com --role roles/owner
+   23  2022-08-09 08:25:19 \whoami
+   24  2022-08-09 08:25:19 gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:qwiklab@${PROJECT_ID}.iam.gserviceaccount.com --role roles/owner
+   25  2022-08-09 08:25:19 gcloud iam service-accounts create qwiklab --display-name "My Qwiklab Service Account"
+   26  2022-08-09 08:25:19 gcloud iam service-accounts list
+   27  2022-08-09 08:25:19 gcloud iam service-accounts get-iam-policy 
+   28  2022-08-09 08:25:19 gcloud iam service-accounts get-iam-policy qwiklab@sit-22t1-team-justice--b78eea6.iam.gserviceaccount.com 
+   29  2022-08-09 08:25:19 gcloud iam service-accounts gcloud iam service-accounts keys create ~/key.json --iam-account qwiklab@${PROJECT_ID}.iam.gserviceaccount.com
+   30  2022-08-09 08:25:19 gcloud iam service-accounts keys create ~/key.json --iam-account qwiklab@${PROJECT_ID}.iam.gserviceaccount.com
+   31  2022-08-09 08:25:19 cd /
+   32  2022-08-09 08:25:19 ls
+   33  2022-08-09 08:25:19 cd home
+   34  2022-08-09 08:25:19 ls
+   35  2022-08-09 08:25:19 cd ffo
+   36  2022-08-09 08:25:19 ls
+   37  2022-08-09 08:25:19 ${USER}
+   38  2022-08-09 08:25:19 echo ${USER}
+   39  2022-08-09 08:25:19 export GOOGLE_APPLICATION_CREDENTIALS="/home/${USER}/key.json"
+   40  2022-08-09 08:25:19 echo GOOGLE_APPLICATION_CREDENTIALS
+   41  2022-08-09 08:25:19 echo ${GOOGLE_APPLICATION_CREDENTIALS}
+   42  2022-08-09 08:25:19 python3 -version
+   43  2022-08-09 08:25:19 virtualenv -p python3 env
+   44  2022-08-09 08:25:19 source env/bin/activate
+   45  2022-08-09 08:25:19 pip install -r requirements.txt
+   46  2022-08-09 08:25:19 ls
+   47  2022-08-09 08:25:19 exit
+   48  2022-08-09 08:25:24 ls
+   49  2022-08-09 08:25:29 cd python-docs-samples/
+   50  2022-08-09 08:25:30 ls
+   51  2022-08-09 08:25:45 nano requirements.txt
+   52  2022-08-09 08:26:50 ls
+   53  2022-08-09 08:28:10 virtualenv -p python3 env
+   54  2022-08-09 08:28:13 ls
+   55  2022-08-09 08:28:27 rm env
+   56  2022-08-09 08:28:30 rm /env
+   57  2022-08-09 08:28:37 rm -f /env
+   58  2022-08-09 08:28:39 ls
+   59  2022-08-09 08:28:42 cd env/
+   60  2022-08-09 08:28:45 cd ..
+   61  2022-08-09 08:28:47 ls
+   62  2022-08-09 08:28:48 cd ..
+   63  2022-08-09 08:28:49 ls
+   64  2022-08-09 08:28:54 virtualenv -p python3 env
+   65  2022-08-09 08:28:57 ls
+   66  2022-08-09 08:29:07 source env/bin/activate
+   67  2022-08-09 08:29:13 ls
+   68  2022-08-09 08:30:03 pip install -r requirements.txt
+   69  2022-08-09 08:30:49 ls
+   70  2022-08-09 08:30:52 cd python-docs-samples/
+   71  2022-08-09 08:30:53 ls
+   72  2022-08-09 08:30:59 pip install -r requirements.txt
+   73  2022-08-09 08:31:37 find -name "requirements.txt"
+   74  2022-08-09 08:32:59 gcloud app create
+   75  2022-08-09 08:49:53 system
+   76  2022-08-09 08:50:12 history
+   77  2022-08-09 08:51:11 HISTTIMEFORMAT="%F %T "
+   78  2022-08-09 08:51:13 history
+   79  2022-08-09 08:51:29 ls
+   80  2022-08-09 08:51:32 cd ..
+   81  2022-08-09 08:51:33 ls
+   82  2022-08-09 08:51:48 history >> logs.txt
+   83  2022-08-09 08:51:50 ls
+   84  2022-08-09 08:51:55 nano logs.txt
+   85  2022-08-09 08:52:14 git
+   86  2022-08-09 08:54:15 ls
+   87  2022-08-09 08:54:26 mkdir sit374-logs
+   88  2022-08-09 08:54:29 cd sit374-logs/
+   89  2022-08-09 08:54:34 history >> logs.txt
+   90  2022-08-09 08:54:42 git init
+   91  2022-08-09 08:54:55 git status
+   92  2022-08-09 08:54:57 git add .
+   93  2022-08-09 08:55:10 rm logs.txt 
+   94  2022-08-09 08:55:21 history >> logs-090822.txt
